@@ -27,4 +27,11 @@ git merge ollama-cloud/main --allow-unrelated-histories
 ```
 
 ---
+## 🤝 Credits
+
+- **[NanoClaw](https://github.com/qwibitai/nanoclaw)** (by **qwibitai**): The extensible, secure personal assistant framework.
+- **[Ollama](https://ollama.com)**: High-performance LLMs and the Ollama Cloud API.
+- **[LiteLLM](https://github.com/BerriAI/litellm)**: The proxy used to bridge these ecosystems.
+
+---
 *Developed by dipockdas with help from Claude (using Gemini Flash Preview via Claude Code).*
