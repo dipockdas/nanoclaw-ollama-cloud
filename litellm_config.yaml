@@ -1,4 +1,8 @@
 model_list:
+  # IMPORTANT: This first entry is an alias. The Claude Agent SDK inside NanoClaw
+  # performs strict model name validation. By using 'claude-3-5-sonnet-20241022'
+  # as the model name in your .env, you satisfy the SDK's internal checks, while
+  # LiteLLM transparently routes the request to Ollama Cloud.
   - model_name: claude-3-5-sonnet-20241022
     litellm_params:
       model: ollama_chat/glm-5:cloud
@@ -6,6 +10,8 @@ model_list:
       api_key: "YOUR_OLLAMA_API_KEY"
       drop_params: true
       max_tokens: 4096
+
+  # Direct access name (useful for testing the proxy with curl or other clients)
   - model_name: glm-5:cloud
     litellm_params:
       model: ollama_chat/glm-5:cloud
