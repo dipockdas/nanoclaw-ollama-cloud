@@ -117,3 +117,11 @@ uv run --python 3.12 --with "litellm[proxy]" litellm --config litellm_config.yam
 ```
 
 Happy coding!
+
+---
+
+## ⚡ Meta: Built with Gemini & Claude Code
+
+What makes this setup even more interesting is how it was built. This entire integration—including the LiteLLM configuration, the Docker networking fixes, and this very blog post—was developed and tested using **Claude Code** running on **NanoClaw**, but powered by the **gemini-flash-preview** model.
+
+We didn't use Anthropic's models to build the bridge to Ollama; we used Gemini to build the bridge for Claude. It's AI-orchestrated infrastructure at its finest.

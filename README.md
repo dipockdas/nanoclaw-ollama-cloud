@@ -27,4 +27,4 @@ git merge ollama-cloud/main --allow-unrelated-histories
 ```
 
 ---
-*Developed by dipockdas with help from Claude.*
+*Developed by dipockdas with help from Claude (using Gemini Flash Preview via Claude Code).*
